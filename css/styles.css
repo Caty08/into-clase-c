@@ -1,0 +1,28 @@
+html{
+    background-color: silver;
+}
+
+h1{
+    background-color: aqua;
+    color: red;
+    font-size:  60px;
+}
+
+.azul{
+    color: blue;
+font-size: 30px;
+font-family: "Comic Sans Ms";
+}
+.verde{
+    color: green
+}
+
+.fondo-aqua{
+    background-color: aqua;
+}
+
+#yodenegro{
+    margin-left:  40px;
+    margin-top: 10px;
+
+}
