@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+#foto{
+    margin: 40px;
+    height: 200px;
+    width: 200px;;
+    padding: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.contenedor-imagen{
+    text-align: center;
+}
