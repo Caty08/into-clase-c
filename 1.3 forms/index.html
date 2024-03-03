@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form id="formulario" method="post" action="https://formspree.io/f/xeqykbok"></form>
+    <!-- este es un comentario -->
+    <!-- no quiero ver este texto-->
+    <!-- lo que quieras comentar-->
+
+    <!--input: text-->
+    <label for="nombre">nombre</label>
+    <input class="input" type="text" id="nombre" name="nombre" value="" placeholder="ingresa un nombre">
+    <br>
+    <!--input: email-->
+    <label>email</label>
+    <input class="input" type="email" name="email" placeholder="ingresa email">
+    <br>
+    <!--input: password-->
+    <label>password</label>
+    <input class="input" type="password" name="password" placeholder="ingesa password">
+    <br>
+    <!--input: fecha-->
+    <label>fecha</label>
+    <input type="date" placeholder="ingesa fecha de nacimiento">
+    <br>
+    <!--input: rango-->
+    <label>rango</label>
+    <input type="range" value="90">
+    <br>
+    
+    <label>estrellas</label>
+    <select name="estrellas">
+        <!--option> selecciona una opcion</!--option-->
+        <option value="1">1 estrella</option>
+        <option value="2">2 estrella</option>
+        <option value="3">3 estrella</option>
+        <option value="4">4 estrella</option>
+        <option value="5">5 estrella</option>
+    </select>
+    <br>
+    <!-- en el checkbox si pueden tener diferente nombre y se pueden seleccionar ambos-->
+    <p>estudias o trabajas?</p>
+    <label for="estudio">estudio</label>
+    <input id="estudio" type="checkbox" name="estudio" value="1" checked> 
+
+    <label for="trabajo">trabajo</label>
+    <input id="trabajo" type="checkbox" name="trabajo" value="1" checked>
+    <!-- en el radio deben tener mismo nombre y solo se puede seleccionar uno-->
+    <p>genero</p>
+    <label for="masculino">masculino</label>
+    <input id="masculino" type="radio" name="genero" value="masculino" checked>
+
+    <label for="femenino">femenino</label>
+    <input id="femenino" type="radio" name="genero" value="femenino">
+
+   <br>
+   <label>comentario</label>
+   <textarea placeholder="ingresa un comentario">un valor por defecto</textarea>
+   </br>
+   <input type="hidden" name="oculto" value="jajja no me viste">
+   <input type="color">
+    <button>enviar</button>
+</body>
+</html>

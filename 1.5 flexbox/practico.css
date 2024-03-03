@@ -1,0 +1,17 @@
+.padre{
+    background-color: black rgb(15, 15, 69);
+    height: 50;
+}
+
+.hijo{
+    background-color: blue;
+    height: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo{
+    background-color: aqua;
+}

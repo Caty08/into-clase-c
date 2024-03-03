@@ -1,0 +1,30 @@
+html{
+    background-color: coral;
+}
+
+
+#formulario{
+
+    margin: 25px;
+    padding: 10px;
+}
+
+
+
+.input {
+    background-color: rgb(231, 230, 235);
+    margin-bottom: 5px;
+    border: 1px solid #333;
+    height: 20px;
+    font-size: 11px;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+select{
+    height: 20px;
+    width: 90px;
+}
+button {
+    background-color: aquamarine;
+}
